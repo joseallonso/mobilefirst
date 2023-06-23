@@ -4,7 +4,27 @@
 body{
     background-color: black;
 }
-h1{
-    background-color: white;
-    text-align: center;
+.cabeçalho_menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background: url(./img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+
+}
+.container_imagem{
+    padding: 12px;
+    margin: 14px;
+    width: 5em;
 }
